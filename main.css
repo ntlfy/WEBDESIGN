@@ -1,0 +1,75 @@
+@media (min-width: 576px) {
+  .card-columns {
+    column-count: 2;
+  }
+}
+@media (min-width: 768px) {
+  .card-columns {
+    column-count: 3;
+  }
+}
+@media (min-width: 992px) {
+  .card-columns {
+    column-count: 4;
+  }
+}
+@media (min-width: 1200px) {
+  .card-columns {
+    column-count: 5;
+  }
+}
+.img-1 {
+  width: 30rem;
+}
+.bg-clor {
+  border-radius: 15px;
+}
+
+.space-100 {
+  margin-top: 12rem !important;
+}
+.space-150 {
+  margin-left: 10rem !important;
+  margin-top: 0.5rem !important;
+}
+.bx {
+  border-radius: 15rem;
+  font-size: 2rem;
+}
+.space-151 {
+  float: right !important;
+  margin-right: 5rem !important;
+  margin-top: 0.5rem !important;
+}
+.card-img-top {
+  width: 15rem;
+  height: 20rem;
+  margin: 0px auto !important;
+}
+.bx {
+  font-size: 15px;
+}
+
+.height {
+  height: 500rem;
+}
+
+.translate {
+  transform: translateY(20%);
+}
+.card-6{
+  height: 10rem;
+  border-radius: 15px;
+}
+.text-7{
+  border-radius: 15px;
+}
+.line{
+  text-decoration: underline dotted;
+}
+.icon{
+  letter-spacing: 5px;
+}
+.line_bottom{
+  text-decoration: underline;
+}

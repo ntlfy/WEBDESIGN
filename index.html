@@ -1,0 +1,492 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./main.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="" style="width: 80%; margin: 0px auto;">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <div class="container-fluid">
+                    <a class="navbar-brand text-primary" href="#">
+                        <p><span class="h1">Q</span>uick Shop</p>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link text-secondary" aria-current="page" href="#">Home</a>
+                        <a class="nav-link text-secondary" href="#">Products</a>
+                        <a class="nav-link text-secondary" href="#">Contacts</a>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary text-light btn-sm rounded-3" data-toggle="modal" data-target="#modelId">
+                          Login
+                        </button>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="modelId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">Login</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <!-- form -->
+                                        <form class="rounded-3">
+                                            <p class="text-primary" id="text-noti">Đăng Nhập sau 3s......</p>
+                                            <div class="mb-3">
+                                              <label for="exampleInputEmail1" class="form-label">Email:</label>
+                                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                            </div>
+                                            <div class="mb-3">
+                                              <label for="exampleInputPassword1" class="form-label">Password:</label>
+                                              <input type="password" class="form-control" id="exampleInputPassword1">
+                                            </div>
+                                            <div class="mb-3 form-check">
+                                              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                              <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+                                            </div>
+                                            <button type="button" name="" id="SubmitBtn" class="btn btn-primary btn-sm ">Submit</button>
+                                          </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </nav>
+        </div>
+        <!-- content -->
+        <div class="d-flex align-items-center mt-5 container w-75">
+            <div class="flex-grow-1 ms-3">
+                <p class="h1">Lorem ipsum, dolor sit amet consectetur <span class="text-primary">adipisicing
+                        elit</span>. </p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, dolores.</p>
+                <button type="button" class="btn btn-primary getstarted mt-5 w-50" data-bs-toggle="button"
+                    autocomplete="off" aria-pressed="true">Get Started <i class='bx bx-chevron-right'></i></button>
+            </div>
+            <div class="flex-shrink-0">
+                <img class="img-1" src="images/images/illustration-3.svg" alt="...">
+            </div>
+        </div>
+        <!-- content 1 -->
+        <div class="mt-5 container w-75">
+            <div class="">
+                <p class="d-flex justify-content-center">
+                    <button type="button" class="btn btn-outline-success bg-clor d-flex ">Get Started</button>
+                </p>
+            </div>
+            <div class="text-center mb-5">
+                <p class="h4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem, incidunt.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit, reprehenderit?</p>
+            </div>
+            <!-- content 2 -->
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card shadow p-3 mb-5 bg-body rounded-3">
+                        <img src="images/images/illustration-5.svg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow p-3 mb-5 bg-body rounded-3">
+                        <img src="images/images/illustration-6.svg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow p-3 mb-5 bg-body rounded-3">
+                        <img src="images/images/illustration-7.svg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- content 3 -->
+        <div class="d-flex space-100 container-fluid w-75 mb-5">
+            <div class="flex-shrink-0">
+                <img class="img-1" src="images/images/Picture2.png" alt="...">
+            </div>
+            <div class="flex-grow-1 ms-3 space-150">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, in.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur non dolore totam quam aperiam
+                    voluptate nam numquam laudantium dolor temporibus voluptatum incidunt praesentium, est ad vero
+                    exercitationem id deserunt officia?</p>
+                <div class="text-3 d-flex">
+                    <i class='bx bx-book-open'></i>
+                    <p class="">Lorem ipsum At, dolore.</p>
+                </div>
+                <div class="text-4 d-flex">
+                    <i class='bx bxs-home'></i>
+                    <p>Lorem, ipsum soluta.</p>
+                </div>
+            </div>
+        </div>
+        <!-- content 4 -->
+        <div class="d-flex w-75 space-100 container-fluid mb-5">
+            <div class="flex-grow-1 ms-3 space-151">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, in.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur non dolore totam quam aperiam
+                    voluptate nam numquam laudantium dolor temporibus voluptatum incidunt praesentium, est ad vero
+                    exercitationem id deserunt officia?</p>
+                <div class="text-3 d-flex">
+                    <i class='bx bx-book-open'></i>
+                    <p class="">Lorem ipsum At, dolore.</p>
+                </div>
+                <div class="text-4 d-flex">
+                    <i class='bx bxs-home'></i>
+                    <p>Lorem, ipsum soluta.</p>
+                </div>
+            </div>
+            <div class="flex-shrink-0 w-50">
+                <img class="img-1" src="images/images/Picture3.png" alt="...">
+            </div>
+        </div>
+        <!-- content 5 -->
+        <div class=" container-fluid mt-5 bg-dark position-relative card-5" style=" padding: 10%;">
+            <div class="text-center text-white container-fluid w-50">
+                <p class="h4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem, incidunt.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit, reprehenderit?</p>
+            </div>
+            <div class="container-fluid w-25">
+                <p class="d-flex justify-content-center">
+                    <button type="button" class="btn btn-primary bg-clor d-flex ">Learn More</button>
+                </p>
+            </div>
+            <div class="mt-5 container translate  height position-absolute card-6 w-75 ">
+                <div class="row row-cols-1 row-cols-md-3 g-5">
+                    <div class="col">
+                        <div class="row card h-100">
+                            <div class="row pt-3">
+                                <div class="col-3">
+                                    <p class="bg-warning text-center rounded-3">New</p>
+                                </div>
+                                <div class="col-9">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="row card h-100">
+                            <div class="row pt-3">
+                                <div class="col-3">
+                                    <p class="bg-warning text-center rounded-3">New</p>
+                                </div>
+                                <div class="col-9">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="row card h-100">
+                            <div class="row pt-3">
+                                <div class="col-3">
+                                    <p class="bg-warning text-center rounded-3">New</p>
+                                </div>
+                                <div class="col-9">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="row card h-100">
+                            <div class="row pt-3">
+                                <div class="col-3">
+                                    <p class="bg-warning text-center rounded-3">New</p>
+                                </div>
+                                <div class="col-9">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="row card h-100">
+                            <div class="row pt-3">
+                                <div class="col-3">
+                                    <p class="bg-warning text-center rounded-3">New</p>
+                                </div>
+                                <div class="col-9">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="row card h-100">
+                            <div class="row pt-3">
+                                <div class="col-3">
+                                    <p class="bg-warning text-center rounded-3">New</p>
+                                </div>
+                                <div class="col-9">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- content 6 -->
+        <div style="padding : 10% ;margin-top: 15rem;">
+            <button type="button" class="btn btn-primary text-7 " style="width : 5rem ;">KPI</button>
+            <p class="text-start w-50 mt-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero at harum,
+                itaque sint
+                distinctio autem voluptatum expedita repellendus nemo beatae ullam aspernatur magni accusamus blanditiis
+                earum minus odit cumque laboriosam!</p>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100 ">
+                        <div class="card-body row">
+                            <h5 class="card-title col-2 d-flex align-items-center"><i class='bx bx-check bg-success' style="font-size: 3rem;"></i></h5>
+                            <p class="card-text col-10">This is a longer card with supporting text below as a natural
+                                lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 ">
+                        <div class="card-body row">
+                            <h5 class="card-title col-2 d-flex align-items-center"><i class='bx bx-check bg-primary' style="font-size: 3rem;"></i></h5>
+                            <p class="card-text col-10">This is a longer card with supporting text below as a natural
+                                lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 ">
+                        <div class="card-body row">
+                            <h5 class="card-title col-2 d-flex align-items-center"><i class='bx bx-check bg-warning' style="font-size: 3rem;"></i></h5>
+                            <p class="card-text col-10">This is a longer card with supporting text below as a natural
+                                lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 ">
+                        <div class="card-body row">
+                            <h5 class="card-title col-2 d-flex align-items-center"><i class='bx bx-check bg-secondary' style="font-size: 3rem;"></i></h5>
+                            <p class="card-text col-10">This is a longer card with supporting text below as a natural
+                                lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 ">
+                        <div class="card-body row">
+                            <h5 class="card-title col-2 d-flex align-items-center"><i class='bx bx-check bg-danger' style="font-size: 3rem;"></i></h5>
+                            <p class="card-text col-10">This is a longer card with supporting text below as a natural
+                                lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 ">
+                        <div class="card-body row">
+                            <h5 class="card-title col-2 d-flex align-items-center"><i class='bx bx-check bg-info' style="font-size: 3rem;"></i></h5>
+                            <p class="card-text col-10">This is a longer card with supporting text below as a natural
+                                lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- content 8 -->
+        <div class="text-center mb-5">
+            <p class="h3">Lorem ipsum dolor, Voluptatem, incidunt.</p>
+            <p class="container w-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis architecto assumenda
+                sapiente soluta, dolor
+                earum praesentium unde amet fugit laboriosam quod necessitatibus at nesciunt officia ratione obcaecati
+                doloribus doloremque magni!</p>
+        </div>
+        <!-- content 9 -->
+        <div class="container w-50 d-flex row " style="margin: 0px auto;">
+            <div class="col">
+                <div class="card" style="width : 90%" ;>
+                    <div class="card-body text-center bg-white shadow rounded-3">
+                        <h5 class="card-title">VND15000</h5>
+                        <div class="card-text">
+                            <p>PowerBI Desktop</p>
+                            <p class="pt-5"></p>
+                            <p>Lorem aborum.</p>
+                            <p>Lorem, perferendis.</p>
+                            <p>Lorem it. Esse, reprehenderit?</p>
+                            <p>Lorem isicing elit. Aliquam, vero.</p>
+                        </div>
+                        <a href="#" class="btn btn-warning">Register Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body text-center bg-primary bg-gradient bg-success shadow rounded-3"
+                        style="padding : 3rem;">
+                        <h5 class="card-title">Card title</h5>
+                        <div class="card-text">
+                            <p>PowerBI Desktop</p>
+                            <p class="pt-5"></p>
+                            <p>Lorem aborum.</p>
+                            <p>Lorem, perferendis.</p>
+                            <p>Lorem it. Esse, reprehenderit?</p>
+                            <p class="pb-4">Lorem isicing elit. Aliquam, vero.</p>
+                        </div>
+                        <a href="#" class="btn btn-light text-dark">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <p class="pt-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, voluptas.</p>
+                <p class="text-center"><a href="#" class="btn text-primary line">Contact Us <i
+                            class='bx bx-right-arrow-alt'></i></a></p>
+            </div>
+        </div>
+        <div class="container-fluid p-5  " style="background-color: #171347;">
+            <div class=" container w-100 row">
+                <div class="col-8 w-50 container">
+                    <p class="text-primary">Quick Shop</p>
+                    <p class="text-secondary w-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt,
+                        quibusdam
+                        incidunt unde consequatur quae deleniti enim laboriosam totam quasi ab assumenda consequuntur,
+                        animi
+                        itaque neque quis molestiae nostrum perspiciatis. Minus.</p>
+                    <div class="icon text-secondary ">
+                        <i class='bx bxl-github'></i>
+                        <i class='bx bxl-tiktok'></i>
+                        <i class='bx bxl-instagram'></i>
+                        <i class='bx bxl-facebook-circle'></i>
+                    </div>
+                </div>
+                <div class="col-4 d-flex justify-content-between text-light">
+                    <div class="account">
+                        <p>Account</p>
+                        <p class="text-secondary">Profile</p>
+                        <p class="text-secondary">Settings</p>
+                        <p class="text-secondary">Billing</p>
+                        <p class="text-secondary">Noti</p>
+                    </div>
+                    <div class="about">
+                        <p>About</p>
+                        <p class="text-secondary">Services</p>
+                        <p class="text-secondary">Pricing</p>
+                        <p class="text-secondary">Contact</p>
+                        <p class="text-secondary">Careers</p>
+                    </div>
+                    <div class="company ">
+                        <p>Company</p>
+                        <p class="text-secondary">Commnunity</p>
+                        <p class="text-secondary">Hello center</p>
+                        <p class="text-secondary">Support</p>
+                    </div>
+                </div>
+            </div>
+            <hr class="text-secondary container w-75 d-flex align-items-center" />
+            <div class="col-12 ">
+
+                <div class="" style="width: 80%; margin: 0px auto;">
+                    <nav class="navbar navbar-expand-lg navbar-light ">
+                        <div class="container-fluid">
+                            <a class="navbar-brand text-primary" href="#">
+                                <p class="container w-75 text-light" style="font-size: 15px;"><i
+                                        class='bx bx-copyright text-secondary'></i><span
+                                        class="text-secondary">2023</span> Nguyen Thanh Luan <span
+                                        class="text-secondary">Clone</span></p>
+                            </a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                        </div>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav">
+                                <a class="nav-link text-secondary" aria-current="page" href="#">Terms</a>
+                                <a class="nav-link text-secondary" href="#">Private</a>
+                                <a class="nav-link text-secondary" href="#">Cookie</a>
+                            </div>
+                    </nav>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="main.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
